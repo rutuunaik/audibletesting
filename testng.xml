@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<!--    <test name="C:\Users\manim\IdeaProjects\FinalTeamProject\src\main\java\com\driver\DriverClass.java">-->
+<!--        <parameter name="browser" value="chrome"></parameter>-->
+<!--        <parameter name="link" value="https://www.tcl.com/in/en"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="com.driver.DriverClass">-->
+<!--                -->
+<!--            </class>-->
+
+<!--        </classes>-->
+<!--    </test>-->
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/manim/IdeaProjects/FinalTeamProject/src/test/java/org/example/AppTest.java">
+
+        <classes>
+            <class name="org.example.AppTest">
+                <methods>
+                    <include name="VerifyProfileTest"/>
+                    <include name="pressLogin"/>
+                    <include name="enterWrongDetails"/>
+                    <include name="clearDetails"/>
+                    <include name="enterCorrectDetails"/>
+                    <include name="selectProduct"/>
+                    <include name="selectIteam"/>
+                    <include name="pressbtn"/>
+                    <include name="pressAddToCart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
